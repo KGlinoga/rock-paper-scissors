@@ -11,6 +11,24 @@ console.log(compChoice[Math.floor(Math.random()*compChoice.length)])
 //     ask user for R,P or S via pop up
 //     EDGE CASE: user doesn't pick R P or s   
     
+
+// window.alert("hello there!")
+// window.confirm("obiwan")
+
+// if (confirm("Press a button!")) {
+//     txt = "You pressed OK!";
+//   } else {
+//     txt = "You pressed Cancel!";
+//   }
+
+var person = prompt("Play Rock Paper Scissors!", "Rock, Paper, or Scissors");
+var text;
+if (person == null || person == "") {
+  text = "User cancelled the prompt.";
+} else {
+  text = "Hello " + person + "! How are you today?";
+}
+
 // figure out result
 //     win: R:P, P:R, S:P
 //     loss: s:r, r:P, p:s
