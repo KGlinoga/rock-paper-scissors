@@ -4,6 +4,8 @@
 //     store in variable
 
 var compChoice = ["r", "p", "s"]
+console.log(compChoice[Math.floor(Math.random()*compChoice.length)])
+
 
 // collect users choice (R,P, S)
 //     ask user for R,P or S via pop up
