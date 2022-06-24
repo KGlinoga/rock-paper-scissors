@@ -21,18 +21,26 @@ console.log(compChoice[Math.floor(Math.random()*compChoice.length)])
 //     txt = "You pressed Cancel!";
 //   }
 
-var person = prompt("Play Rock Paper Scissors!", "Rock, Paper, or Scissors");
+function playGame() {
+    var player = prompt("Play Rock Paper Scissors!", "R P or S");
 var text;
-if (person == null || person == "") {
+if (player == compChoice || player == "") {
   text = "User cancelled the prompt.";
 } else {
-  text = "Hello " + person + "! How are you today?";
+  text = "---";
 }
+}
+
+
+//still need Edge Case 
 
 // figure out result
 //     win: R:P, P:R, S:P
 //     loss: s:r, r:P, p:s
 //     tie: s:s, etc.
+
+
+
 
 // log stats
 //     3 possible outcomes
