@@ -1,10 +1,61 @@
-// javascript
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// javascript 
+
+// pop up that prompts user for an entry
+
+
 // // randomly choose computer choice
 //     //either r, p or s
 //     store in variable
-
-var compChoice = ["r", "p", "s"]
-console.log(compChoice[Math.floor(Math.random()*compChoice.length)])
 
 
 // collect users choice (R,P, S)
@@ -12,24 +63,17 @@ console.log(compChoice[Math.floor(Math.random()*compChoice.length)])
 //     EDGE CASE: user doesn't pick R P or s   
     
 
-// window.alert("hello there!")
-// window.confirm("obiwan")
-
-// if (confirm("Press a button!")) {
-//     txt = "You pressed OK!";
-//   } else {
-//     txt = "You pressed Cancel!";
-//   }
-
-function playGame() {
-    var player = prompt("Play Rock Paper Scissors!", "R P or S");
-var text;
-if (player == compChoice || player == "") {
-  text = "User cancelled the prompt.";
-} else {
-  text = "---";
-}
-}
+// function playGame() {
+//     var player = prompt("Play Rock Paper Scissors by entering r, p, or s.", " ");
+//     var text;
+    
+//     if (player() == R) {
+//         text = "Rock!";
+//     } else (player !== compChoice || player == "")
+//     {
+//         text = "---";
+//     }
+// }
 
 
 //still need Edge Case 
